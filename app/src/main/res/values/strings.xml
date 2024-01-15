@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Portfolio app</string>
+    <string name="designation">Computer Expert And ML Engineer</string>
+    <string name="btnSkills">Skills</string>
+    <string name="btnEducation">Education</string>
+    <string name="btnWork">Work</string>
+    <string name="btnAchievement">Achievement</string>
+    <string name="name">Marry George</string>
+</resources>

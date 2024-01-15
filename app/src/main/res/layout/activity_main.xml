@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="339dp"
+        android:layout_height="233dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:src="@drawable/wish" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/tvDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/designation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:background="@color/pin"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/btnSkills"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="@color/pin"
+            android:textColor="@color/white"
+            android:text="@string/btnEducation"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnWork"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@color/pin"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/btnWork"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnAchivement"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@color/pin"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/btnAchievement"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>
